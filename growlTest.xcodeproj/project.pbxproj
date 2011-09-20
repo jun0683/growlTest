@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32EE8A01428620300C736D3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32EE89F1428620300C736D3 /* Cocoa.framework */; };
+		D32EE8AA1428620300C736D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D32EE8A81428620300C736D3 /* InfoPlist.strings */; };
+		D32EE8AC1428620300C736D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D32EE8AB1428620300C736D3 /* main.m */; };
+		D32EE8B01428620300C736D3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D32EE8AE1428620300C736D3 /* Credits.rtf */; };
+		D32EE8B31428620300C736D3 /* growlTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D32EE8B21428620300C736D3 /* growlTestAppDelegate.m */; };
+		D32EE8B61428620300C736D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32EE8B41428620300C736D3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D32EE89B1428620300C736D3 /* growlTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = growlTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32EE89F1428620300C736D3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D32EE8A21428620300C736D3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D32EE8A31428620300C736D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D32EE8A41428620300C736D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D32EE8A71428620300C736D3 /* growlTest-Info.plist */ = {isa = PBXFileReference; path = "growlTest-Info.plist"; sourceTree = "<group>"; };
+		D32EE8A91428620300C736D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D32EE8AB1428620300C736D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D32EE8AD1428620300C736D3 /* growlTest-Prefix.pch */ = {isa = PBXFileReference; path = "growlTest-Prefix.pch"; sourceTree = "<group>"; };
+		D32EE8AF1428620300C736D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D32EE8B11428620300C736D3 /* growlTestAppDelegate.h */ = {isa = PBXFileReference; path = growlTestAppDelegate.h; sourceTree = "<group>"; };
+		D32EE8B21428620300C736D3 /* growlTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = growlTestAppDelegate.m; sourceTree = "<group>"; };
+		D32EE8B51428620300C736D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32EE8981428620300C736D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32EE8A01428620300C736D3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32EE8901428620300C736D3 = {
+			isa = PBXGroup;
+			children = (
+				D32EE8A51428620300C736D3 /* growlTest */,
+				D32EE89E1428620300C736D3 /* Frameworks */,
+				D32EE89C1428620300C736D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32EE89C1428620300C736D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32EE89B1428620300C736D3 /* growlTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32EE89E1428620300C736D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D32EE89F1428620300C736D3 /* Cocoa.framework */,
+				D32EE8A11428620300C736D3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D32EE8A11428620300C736D3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D32EE8A21428620300C736D3 /* AppKit.framework */,
+				D32EE8A31428620300C736D3 /* CoreData.framework */,
+				D32EE8A41428620300C736D3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D32EE8A51428620300C736D3 /* growlTest */ = {
+			isa = PBXGroup;
+			children = (
+				D32EE8B11428620300C736D3 /* growlTestAppDelegate.h */,
+				D32EE8B21428620300C736D3 /* growlTestAppDelegate.m */,
+				D32EE8B41428620300C736D3 /* MainMenu.xib */,
+				D32EE8A61428620300C736D3 /* Supporting Files */,
+			);
+			path = growlTest;
+			sourceTree = "<group>";
+		};
+		D32EE8A61428620300C736D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32EE8A71428620300C736D3 /* growlTest-Info.plist */,
+				D32EE8A81428620300C736D3 /* InfoPlist.strings */,
+				D32EE8AB1428620300C736D3 /* main.m */,
+				D32EE8AD1428620300C736D3 /* growlTest-Prefix.pch */,
+				D32EE8AE1428620300C736D3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32EE89A1428620300C736D3 /* growlTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32EE8B91428620300C736D3 /* Build configuration list for PBXNativeTarget "growlTest" */;
+			buildPhases = (
+				D32EE8971428620300C736D3 /* Sources */,
+				D32EE8981428620300C736D3 /* Frameworks */,
+				D32EE8991428620300C736D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = growlTest;
+			productName = growlTest;
+			productReference = D32EE89B1428620300C736D3 /* growlTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32EE8921428620300C736D3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D32EE8951428620300C736D3 /* Build configuration list for PBXProject "growlTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D32EE8901428620300C736D3;
+			productRefGroup = D32EE89C1428620300C736D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32EE89A1428620300C736D3 /* growlTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32EE8991428620300C736D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32EE8AA1428620300C736D3 /* InfoPlist.strings in Resources */,
+				D32EE8B01428620300C736D3 /* Credits.rtf in Resources */,
+				D32EE8B61428620300C736D3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32EE8971428620300C736D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32EE8AC1428620300C736D3 /* main.m in Sources */,
+				D32EE8B31428620300C736D3 /* growlTestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D32EE8A81428620300C736D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32EE8A91428620300C736D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D32EE8AE1428620300C736D3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32EE8AF1428620300C736D3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D32EE8B41428620300C736D3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32EE8B51428620300C736D3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32EE8B71428620300C736D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D32EE8B81428620300C736D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D32EE8BA1428620300C736D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "growlTest/growlTest-Prefix.pch";
+				INFOPLIST_FILE = "growlTest/growlTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D32EE8BB1428620300C736D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "growlTest/growlTest-Prefix.pch";
+				INFOPLIST_FILE = "growlTest/growlTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32EE8951428620300C736D3 /* Build configuration list for PBXProject "growlTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32EE8B71428620300C736D3 /* Debug */,
+				D32EE8B81428620300C736D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32EE8B91428620300C736D3 /* Build configuration list for PBXNativeTarget "growlTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32EE8BA1428620300C736D3 /* Debug */,
+				D32EE8BB1428620300C736D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32EE8921428620300C736D3 /* Project object */;
+}
