@@ -7,11 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Growl-WithInstaller/Growl.h>
 
-@interface growlTestAppDelegate : NSObject <NSApplicationDelegate> {
+@interface growlTestAppDelegate : NSObject <GrowlApplicationBridgeDelegate> {
 	NSWindow *window;
 }
 
+
+
 @property (assign) IBOutlet NSWindow *window;
+
+- (IBAction)showMessage:(id)sender;
 
 @end

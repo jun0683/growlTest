@@ -13,7 +13,23 @@
 		D32EE8B01428620300C736D3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D32EE8AE1428620300C736D3 /* Credits.rtf */; };
 		D32EE8B31428620300C736D3 /* growlTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D32EE8B21428620300C736D3 /* growlTestAppDelegate.m */; };
 		D32EE8B61428620300C736D3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32EE8B41428620300C736D3 /* MainMenu.xib */; };
+		D32EE8BD1428621400C736D3 /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D32EE8BC1428621400C736D3 /* Growl-WithInstaller.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		D32EE8BF1428622300C736D3 /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D32EE8BC1428621400C736D3 /* Growl-WithInstaller.framework */; };
+		D32EE8C51428647200C736D3 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = D32EE8C41428647200C736D3 /* Growl Registration Ticket.growlRegDict */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D32EE8BE1428621D00C736D3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D32EE8BF1428622300C736D3 /* Growl-WithInstaller.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D32EE89B1428620300C736D3 /* growlTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = growlTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,14 +37,16 @@
 		D32EE8A21428620300C736D3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D32EE8A31428620300C736D3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D32EE8A41428620300C736D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D32EE8A71428620300C736D3 /* growlTest-Info.plist */ = {isa = PBXFileReference; path = "growlTest-Info.plist"; sourceTree = "<group>"; };
+		D32EE8A71428620300C736D3 /* growlTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "growlTest-Info.plist"; sourceTree = "<group>"; };
 		D32EE8A91428620300C736D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D32EE8AB1428620300C736D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D32EE8AD1428620300C736D3 /* growlTest-Prefix.pch */ = {isa = PBXFileReference; path = "growlTest-Prefix.pch"; sourceTree = "<group>"; };
+		D32EE8AD1428620300C736D3 /* growlTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "growlTest-Prefix.pch"; sourceTree = "<group>"; };
 		D32EE8AF1428620300C736D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D32EE8B11428620300C736D3 /* growlTestAppDelegate.h */ = {isa = PBXFileReference; path = growlTestAppDelegate.h; sourceTree = "<group>"; };
+		D32EE8B11428620300C736D3 /* growlTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = growlTestAppDelegate.h; sourceTree = "<group>"; };
 		D32EE8B21428620300C736D3 /* growlTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = growlTestAppDelegate.m; sourceTree = "<group>"; };
 		D32EE8B51428620300C736D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D32EE8BC1428621400C736D3 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
+		D32EE8C41428647200C736D3 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D32EE8A01428620300C736D3 /* Cocoa.framework in Frameworks */,
+				D32EE8BD1428621400C736D3 /* Growl-WithInstaller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 		D32EE89E1428620300C736D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D32EE8BC1428621400C736D3 /* Growl-WithInstaller.framework */,
 				D32EE89F1428620300C736D3 /* Cocoa.framework */,
 				D32EE8A11428620300C736D3 /* Other Frameworks */,
 			);
@@ -82,6 +102,7 @@
 		D32EE8A51428620300C736D3 /* growlTest */ = {
 			isa = PBXGroup;
 			children = (
+				D32EE8C41428647200C736D3 /* Growl Registration Ticket.growlRegDict */,
 				D32EE8B11428620300C736D3 /* growlTestAppDelegate.h */,
 				D32EE8B21428620300C736D3 /* growlTestAppDelegate.m */,
 				D32EE8B41428620300C736D3 /* MainMenu.xib */,
@@ -112,6 +133,7 @@
 				D32EE8971428620300C736D3 /* Sources */,
 				D32EE8981428620300C736D3 /* Frameworks */,
 				D32EE8991428620300C736D3 /* Resources */,
+				D32EE8BE1428621D00C736D3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -152,6 +174,7 @@
 				D32EE8AA1428620300C736D3 /* InfoPlist.strings in Resources */,
 				D32EE8B01428620300C736D3 /* Credits.rtf in Resources */,
 				D32EE8B61428620300C736D3 /* MainMenu.xib in Resources */,
+				D32EE8C51428647200C736D3 /* Growl Registration Ticket.growlRegDict in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +268,10 @@
 		D32EE8BA1428620300C736D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "growlTest/growlTest-Prefix.pch";
 				INFOPLIST_FILE = "growlTest/growlTest-Info.plist";
@@ -256,6 +283,10 @@
 		D32EE8BB1428620300C736D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "growlTest/growlTest-Prefix.pch";
 				INFOPLIST_FILE = "growlTest/growlTest-Info.plist";
